@@ -40,19 +40,19 @@ class App extends Component {
           <div className="Card-Content">
             <Container>
               <Row>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_bc158c842fe04727a07b55e3bfc1b9b7.jpg" thumbnail />
                   <h4 className="Card-Title">Pre-Escolar</h4>
                   </a>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_ae0653643b714eafa43ebe0d99d99c4a.jpg" thumbnail />
                   <h4 className="Card-Title">Primaria</h4>
                   </a>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_40f606af0c484f52a9a87ccfc42a3b97.jpg" thumbnail />
                   <h4 className="Card-Title">Secundaria</h4>
@@ -61,19 +61,19 @@ class App extends Component {
               </Row>
 
               <Row>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_40f606af0c484f52a9a87ccfc42a3b97.jpg" thumbnail />
                   <h4 className="Card-Title">Preparatoria</h4>
                   </a>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_3ec3f5fafb93420fa408975b803e0fc7.jpg" thumbnail />
                   <h4 className="Card-Title">Técnicos Profesional</h4>
                   </a>
                 </Col>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_d625a27050b348e2ad00e300fcbace25mv2.jpg" thumbnail />
                   <h4 className="Card-Title">Licenciaturas</h4>
@@ -82,7 +82,7 @@ class App extends Component {
               </Row>
               
               <Row>
-                <Col xs={6} md={4}>
+                <Col sm>
                   <a href="#">
                   <Image src="http://ucmor.edu.mx/portal%20Archivos/ccf397_3ec3f5fafb93420fa408975b803e0fc7_002.jpg" thumbnail />
                   <h4 className="Card-Title">Maestrias</h4>
