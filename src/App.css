@@ -28,6 +28,10 @@ footer {
 	width: 50px;
 }
 
+.NavBar {
+	margin: 0 auto;
+	width: 95%;
+}
 
 .Carousel {
 	position: relative;
@@ -58,8 +62,11 @@ footer {
 }
 
 .Social-Icons {
+	margin: 0 auto;
 	background-color: rgba(230,230,230,0.8);
-	margin-top: 15px;
+	margin-top: 45px;
+	border-top: 5px solid black;
+	width: 93%;
 }
 
 .Icon {

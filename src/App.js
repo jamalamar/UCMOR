@@ -15,20 +15,28 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+        {/*HEDER LOGO AND TITLE*/}
         <div className="Header">
           <img className="Logo" src='http://ucmor.edu.mx/portal%20Archivos/ccf397_90318c8a081b4f0fbe3a441539e85b6a.jpg'/>
           <h1>Universidad de la Cuenca de Morelos</h1>
         </div>
-        <NavBar/>
 
+        {/*NAVBAR*/}
+        <div className="NavBar">
+          <NavBar/>
+        </div>
+
+        {/*CAROUSEL*/}
         <div className="Carousel">
           <ControlledCarousel/>
         </div>
 
+        {/*CARD CONTAINER */}
         <div className="Card-Container">
           <h2 className="Oferta">Nuestros Programas</h2>
 
-
+        {/*GRID OF CARDS*/}
           <div className="Card-Content">
             <Container>
               <Row>
@@ -87,6 +95,7 @@ class App extends Component {
           </div>
         </div>
 
+        {/*FOOTER*/}
         <Footer/>
       
       </div>
