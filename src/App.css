@@ -1,33 +1,58 @@
+body {
+    font-family: 'Cinzel', serif;
+	background: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Logo {
+	display: flex;
+	justify-content: start;
+	width: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Carousel {
+	position: relative;
+	margin: 10px auto;
+	width: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Card-Container {
+	padding: 50px;
 }
+
+.Oferta {
+	display: flex;
+	justify-content: start;
+}
+
+.Card-Content {
+	border-top: 5px solid black;
+	padding: 40px;
+}
+
+.Card-Title {
+	position: relative;
+	background-color: rgba(255,255,255,0.8);
+	bottom: 40px;
+}
+
+
+
+
+
