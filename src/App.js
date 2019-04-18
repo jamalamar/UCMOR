@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+
 import NavBar from './Components/navbar.js'
 import ControlledCarousel from './Components/carousel.js'
+import Footer from './Components/footer.js'
+
 import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+
 
 class App extends Component {
   render() {
@@ -81,8 +85,9 @@ class App extends Component {
             </Container>
 
           </div>
-
         </div>
+
+        <Footer/>
       
       </div>
     );
